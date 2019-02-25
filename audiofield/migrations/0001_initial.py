@@ -31,7 +31,7 @@ class Migration(migrations.Migration):
                 'db_table': 'audio_file',
                 'verbose_name': 'audio file',
                 'verbose_name_plural': 'audio files',
-                'permissions': (('view_audiofile', 'can see Audio Files'),),
+                'permissions': (('html5_view_audiofile', 'can see Audio Files'),),
             },
         ),
     ]
